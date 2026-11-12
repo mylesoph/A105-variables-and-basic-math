@@ -1,16 +1,19 @@
 #!python3
 
 '''
-##### Task 8
-Read through the file **example2.py** for information on using the math module.
-Calculate the length of a hypotenuse given 2 variables
-Set the value of a to 5
-Set the value of b to 8
+##### Task 7
+Read through the file **example1.py** for information on using the math module.
+* Open the file called a7.py
+* The program has a variable called F that will store a float value for the temperature in degrees Fahreneight
+* Set F to a value of 62.5
+* Do a calculation that converts the temperature to degrees C and stores it in a variable called C
+* Round the temperature in C to 1 decimal place and print the result
+* You will require the use of the round() function from example1.py
+'''
+a = 5 
+b = 8
+x = (a ** 2) + (b ** 2)
+numDecimals = 2 
+c = round((x ** 0.5), numDecimals)
+print(c)
 
-Determine the length of the hypotenuse and store it into a variable called c
-print the value of c
-
-You may use either the ** operator or math.pow(x,y) for your exponents
-You may use either math.sqrt(x) or the exponent to the power of 0.5 for your square root
-
- '''
